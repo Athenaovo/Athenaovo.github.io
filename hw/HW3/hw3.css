@@ -5,7 +5,6 @@ figcaption, h1, h2, h3, ul, li, body, div, p, img {
     font-size: 100%;
     vertical-align: baseline;
     border: 0;
-    font-family: 'Times New Roman', Times, serif;
 }
 body{
     width: 900px;
@@ -26,5 +25,14 @@ header{
 a{
     margin: 0.5em;
     font-size: medium;
-
+}
+.resimg{
+    background-image: "restaurant.jpg";
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+}
+.resimg p{
+    color: Cornsilk;
+    font-size: 3em;
 }
