@@ -21,8 +21,9 @@ header{
     padding-left: 2em;
     padding-top: 1em;
     padding-bottom: 1em;
-    font-size: 12em;
 }
 a{
-margin: 1em;
+    margin: 1em;
+    font-size: medium;
+
 }
