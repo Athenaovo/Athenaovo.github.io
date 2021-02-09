@@ -92,13 +92,13 @@ margin-left: 3em;
     flex: 1;
   }
  .italyback img{
-    width: 364px;
+    width: 369px;
     height: 285px;
     display: block;
     margin: 0.5em;
 }
 .italyback{
-    width: 380px;
+    width: 385px;
     height: 300px;
     background-color: LavenderBlush;
     align-content: center;
@@ -118,14 +118,14 @@ margin-left: 3em;
 
 .indianback{ 
     margin-right: 2.5em;
-    width: 380px;
+    width: 385px;
     height: 300px;
     background-color: LightBlue;
     align-content: center;
     
 }
 .indianback img{
-    width: 364px;
+    width: 369px;
     height: 285px;
     display: block;
     margin: 0.5em;
@@ -141,14 +141,14 @@ margin-left: 3em;
     color: RoyalBlue;
 }
 .japanback{
-    width: 380px;
+    width: 385px;
     height: 300px;
     background-color: LavenderBlush;
     align-content: center;
     margin-right: 6em;
 }
 .japanback img{
-    width: 364px;
+    width: 369px;
     height: 285px;
     display: block;
     margin: 0.5em;
@@ -164,13 +164,13 @@ margin-left: 3em;
 }
 .dessertback{
     margin-right: 2.5em;
-    width: 380px;
+    width: 385px;
     height: 300px;
     background-color: LightBlue;
     align-content: center;
 }
 .dessertback img{
-    width: 364px;
+    width: 369px;
     height: 285px;
     display: block;
     margin: 0.5em;
