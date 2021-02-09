@@ -7,10 +7,19 @@ figcaption, h1, h2, h3, ul, li, body, div, p, img {
     border: 0;
 }
 body{
-    width: 864px;
+    width: 900px;
 }
 header{
     font-size: 2em;
     font-family: 'Times New Roman', Times, serif;
     color:darkblue;
+    margin-left: 11em;
+}
+.menuitems{
+    background-color: antiquewhite;
+    width: 900px;
+    padding-left: 4em;
+}
+a{
+margin: 1em;
 }
