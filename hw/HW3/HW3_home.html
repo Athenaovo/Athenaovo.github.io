@@ -11,10 +11,10 @@
     <div class="menuitems">
       <p>
         <a href="../HW3/HW3_home.html">Home</a>
-        <a href="/">Italian</a>
-        <a href="/">Indian</a>
-        <a href="/">Japanese</a>
-        <a href="/">Desserts</a>
+        <a href="#italy">Italian</a>
+        <a href="#india">Indian</a>
+        <a href="#japan">Japanese</a>
+        <a href="#des">Desserts</a>
         <a href="/index.html">About</a>
         <a href="/index.html">Contact</a>
       </p>      
@@ -26,29 +26,51 @@
     </p>
     <button type="button">Book Your Reservation</button>
     </div>
-    <div>
+    <div class="explore">
       <p>Explore Our Delicious Cuisines</p>
       
     </div>
-    <div>
-      <img src="italiancuisine.jpg" alt="italianf">
-      <p>Italy's finest:</p>
-      <p>From out Lasagna to our Protein Penne, we have delicious options for every taste!</p>
+    <div class="container">
+      <div class='row'>
+        <div class='column'>
+          <div id="italy" class="italyback"><img src="italiancuisine.jpg" alt="italianf">
+          </div>
+        </div>
+        <div class='column'>
+          <div class="itawords"><h2>Italy's finest:</h2>
+          <p>From out Lasagna to our Protein Penne, we have delicious options for every taste!</p>
+          </div>
+        </div>
+      
+    </div><!-- 1 row & column-->
+    <div class='row'>
+      <div class='column'>
+        <div id="india" class="indwords"><h2>India's Flavors:</h2>
+          <p>Our dishes are blended with masterful savory spices</p>
+        </div>
+      </div>
+      <div class='column'>
+        <div class="indianback"><img src="indiancuisine.jpg" alt="indianf"></div>
+      </div>
+    </div> <!-- indian row-->
+    <div class='row'>
+      <div class='column'>
+        <div id="japan" class="japanback"><img src="japanesecuisine.jpg" alt="japanf"></div>
+      </div>
+      <div class='column'>
+        <div class="japwords"><h2>Japanese Cuisine:</h2>
+          <p>Delicious dining options from Sake to Sushi</p></div>
+      </div>
     </div>
-    <div>
-      <img src="indiancuisine.jpg" alt="indianf">
-      <p>India's Flavors:</p>
-      <p>Our dishes are blended with masterful savory spices</p>
+
+    <div class='row'>
+      <div class='column'><div id="des" class="deswords"><h2>Desserts:</h2>
+        <p>From Italian Tiramisu to Indian Gulab Jamun</p></div></div>
+      <div class='column'><div class="dessertback"><img src="Desserts.jpg" alt="Desserts"></div></div>
+      
+      
+      
     </div>
-    <div>
-      <img src="japanesecuisine.jpg" alt="japanf">
-      <p>Japanese Cuisine:</p>
-      <p>Delicious dining options from Sake to Sushi</p>
-    </div>
-    <div>
-      <img src="Desserts.jpg" alt="Desserts">
-      <p>Desserts:</p>
-      <p>From Italian Tiramisu to Indian Gulab Jamun</p>
-    </div>
+  </div><!--   container -->
   </body>
 </html>

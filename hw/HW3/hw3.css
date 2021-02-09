@@ -5,19 +5,22 @@ figcaption, h1, h2, h3, ul, li, body, div, p, img {
     font-size: 100%;
     vertical-align: baseline;
     border: 0;
+    
 }
 body{
-    width: 900px;
+    width: 864px;
 }
 header{
     font-size: 2em;
     font-family: 'Times New Roman', Times, serif;
     color:darkblue;
     margin-left: 11em;
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
 }
 .menuitems{
     background-color: antiquewhite;
-    width: 900px;
+    width: 864px;
     padding-left: 2em;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
@@ -26,12 +29,156 @@ a{
     margin: 0.5em;
     font-size: medium;
 }
-.resimg{
+.restimg{
     background-image: url("restaurant.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: 864px auto;
+    margin-left: 3em;
+    margin-top:  2em;
+    height:410px;
+    width: 864px;
+
 }
-.resimg p{
+.restimg p{
+    margin-top: 0;
     color: Cornsilk;
-    font-size: 3em;
+    font-size: 2.5em;
+    padding-top: 3em;
+    padding-left: 5.5em;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+
+}
+button{
+    margin-left:34em;
+    padding-top: 0.25em;
+    padding-bottom: 0.5em;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 2em;
+    border:3px double black;
+    font-size: 14px;
+}
+.explore{
+    font-family: 'Comic Sans MS', Comic Sans, cursive;
+    text-align: center;
+    color:DarkMagenta;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration-style: double;
+    text-decoration-line: underline; 
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+   
+}
+.container {
+margin-left: 3em;
+  }
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 3em;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+  }
+ .italyback img{
+    width: 364px;
+    height: 285px;
+    display: block;
+    margin: 0.5em;
+}
+.italyback{
+    width: 380px;
+    height: 300px;
+    background-color: LavenderBlush;
+    align-content: center;
+    margin-right: 6em;
+}
+.itawords{
+    margin-top: 5.5em;
+    align-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    width: 90%;
+}
+.itawords h2{
+    font-size: 20px;
+    color: RoyalBlue;
+
+}
+
+.indianback{ 
+    margin-right: 2.5em;
+    width: 380px;
+    height: 300px;
+    background-color: LightBlue;
+    align-content: center;
+    
+}
+.indianback img{
+    width: 364px;
+    height: 285px;
+    display: block;
+    margin: 0.5em;
+}
+.indwords{
+    margin-top: 5.5em;
+    align-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    width: 70%;
+}
+.indwords h2{
+    font-size: 20px;
+    color: RoyalBlue;
+}
+.japanback{
+    width: 380px;
+    height: 300px;
+    background-color: LavenderBlush;
+    align-content: center;
+    margin-right: 6em;
+}
+.japanback img{
+    width: 364px;
+    height: 285px;
+    display: block;
+    margin: 0.5em;
+}
+.japwords{
+    margin-top: 5.5em;
+    align-content: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.japwords h2{
+    font-size: 20px;
+    color: RoyalBlue;
+}
+.dessertback{
+    margin-right: 2.5em;
+    width: 380px;
+    height: 300px;
+    background-color: LightBlue;
+    align-content: center;
+}
+.dessertback img{
+    width: 364px;
+    height: 285px;
+    display: block;
+    margin: 0.5em;
+}
+.deswords{
+    margin-top: 5.5em;
+    align-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    width: 70%;
+}
+.deswords h2{
+    font-size: 20px;
+    color: RoyalBlue;
 }
