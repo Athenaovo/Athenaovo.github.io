@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Movie Data</title>
+        <link rel="stylesheet" href="hw6.css">
+    </head>
+    <body>
+        <div class="header">
+            <h1>THE MOVIE DB</h1>
+        </div>
+        <div class="row">
+            <div class="column1">
+                <div class="fixbtns">
+                    <button class="button" id="homebtn">Home&nbsp;&nbsp;⟶</button>
+                    <button class="button" id="searchbtn">Search&nbsp;&nbsp;⟶</button>
+                    
+                </div>
+                
+            </div>
+            <div class="column2" >
+              <p>Trending Movies</h3>
+              <h3>TV Shows On-Air Today</h3>
+
+              <div class="footer">
+                <p>Designed and developed by Yingxue, Zhang</p>
+              </div>
+            </div>
+        </div>
+
+        
+
+
+        <script>
+            function homePage(){
+                const TrendDB = new XMLHttpRequest();
+                const movie_trend_url='http://127.0.0.1:8080/movie_trend';
+                TrendDB.open("GET",movie_trend_url,false);
+                TrendDB.send();
+                // console.log(TrendDB.responseText);  working as string 
+                var data=JSON.parse(TrendDB.responseText);
+                console.log(data);
+                console.log(data.results[0]);
+
+                /* TrendDB.onreadystatechange = (e) => {
+                   
+                    } */
+            }
+            window.onload=homePage();
+        </script>
+    </body>
+</html>
