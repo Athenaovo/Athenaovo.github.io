@@ -532,7 +532,7 @@
                                 var res ="";
                                 for (gennum=0; gennum<searchdata[i].genre_ids.length; gennum++){
                                     var j=0; 
-                                    console.log(gendata.genres); 
+                                    //console.log(gendata.genres); 
                                     for (j=0; j<gendata.genres.length;j++){
                                         
 
@@ -750,7 +750,7 @@
                             var creviews = document.createElement("div");
                             creviews.setAttribute("class","reviewbox");
                             var name=document.createElement("p");  
-                            name.innerHTML = "<span style='font-weight: bold;'>"+reviews[num].author_details.username+"</span>"+"  on "+reviews[num].created_at; 
+                            name.innerHTML = "<span style='font-weight: bold;'>"+reviews[num].author_details.username+"</span>"+"  on "+reviews[num].created_at.substring (0,10).replace(/[-]/g, "/"); 
                             creviews.appendChild(name); 
                             
                             if(reviews[num].author_details.rating!=null){
@@ -776,7 +776,7 @@
                             var creviews = document.createElement("div");
                             creviews.setAttribute("class","reviewbox");
                             var name=document.createElement("p");  
-                            name.innerHTML = "<span style='font-weight: bold;'>"+reviews[num].author_details.username+"</span>"+"  on "+reviews[num].created_at; 
+                            name.innerHTML = "<span style='font-weight: bold;'>"+reviews[num].author_details.username+"</span>"+"  on "+reviews[num].created_at.substring(0,10).replace(/[-]/g, "/"); 
                             creviews.appendChild(name); 
                             if(reviews[num].author_details.rating!=null){
                                 var vote = document.createElement("p");
@@ -945,7 +945,7 @@
                             var creviews = document.createElement("div");
                             creviews.setAttribute("class","reviewbox");
                             var name=document.createElement("p");  
-                            name.innerHTML = "<span style='font-weight: bold;'>"+reviews[num].author_details.username+"</span>"+"  on "+reviews[num].created_at; 
+                            name.innerHTML = "<span style='font-weight: bold;'>"+reviews[num].author_details.username+"</span>"+"  on "+reviews[num].created_at.substring (0,10).replace(/[-]/g, "/"); 
                             creviews.appendChild(name); 
                             
                             if(reviews[num].author_details.rating!=null){
@@ -971,7 +971,7 @@
                             var creviews = document.createElement("div");
                             creviews.setAttribute("class","reviewbox");
                             var name=document.createElement("p");  
-                            name.innerHTML = "<span style='font-weight: bold;'>"+reviews[num].author_details.username+"</span>"+"  on "+reviews[num].created_at; 
+                            name.innerHTML = "<span style='font-weight: bold;'>"+reviews[num].author_details.username+"</span>"+"  on "+reviews[num].created_at.substring (0,10).replace(/[-]/g, "/"); 
                             creviews.appendChild(name); 
                             if(reviews[num].author_details.rating!=null){
                                 var vote = document.createElement("p");
